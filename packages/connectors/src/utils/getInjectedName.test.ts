@@ -56,6 +56,7 @@ describe.each([
   { ethereum: { isPortal: true }, expected: 'Ripio Portal' },
   { ethereum: { isRabby: true }, expected: 'Rabby Wallet' },
   { ethereum: { isRainbow: true }, expected: 'Rainbow' },
+  { ethereum: { isRonin: true }, expected: 'Ronin' },
   { ethereum: { isStatus: true }, expected: 'Status' },
   { ethereum: { isTalisman: true }, expected: 'Talisman' },
   { ethereum: { isSubWallet: true }, expected: 'SubWallet' },

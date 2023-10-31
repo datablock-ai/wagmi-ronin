@@ -60,6 +60,7 @@ export class MetaMaskConnector extends InjectedConnector {
           if (ethereum.isOpera) return
           if (ethereum.isPortal) return
           if (ethereum.isRabby) return
+          if (ethereum.isRonin) return
           if (ethereum.isDefiant) return
           if (ethereum.isTokenPocket) return
           if (ethereum.isTokenary) return
